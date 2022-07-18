@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHITECTURE – My Blog</title>
+
+
+    <!-- title bar logo -->
+    <link rel="icon" href="Icons/logo.png" type="image/icon type">
+
+    <!-- css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- font awesome custom -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="../fontawesome-free-5.15.4-web/js/all.js"></script>
+
+    <!-- AOS for animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- Custom CSS style link -->
+    <link rel="stylesheet" href="Decorish_Style.css">
+
+</head>
+
+<body>
+    <div>
+        <!-- Scroll to Top Button -->
+        <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+
+        <!-- Header Starts Here -->
+        <header id="header">
+
+            <!-- Top Bar Starts Here  767-->
+            <div class="container-fluid">
+                <div class="row bg-dark text-white">
+                    <div class="col-md-4 ms-auto my-2 py-1" data-aos="fade-down">
+                        <a href="#"><i class="fas fa-unlock-alt pe-2" data-aos="fade-left"></i> Login / Register</a>
+                    </div>
+                    <div class="col-md-6 me-auto d-flex justify-content-end top-responsive" data-aos="fade-donw">
+                        <i class="fab fa-twitter me-4 pt-3 dim" data-aos="fade-down"></i>
+                        <i class="fab fa-facebook-f me-4 pt-3 dim" data-aos="fade-up"></i>
+                        <i class="fab fa-instagram me-4 pt-3 dim" data-aos="fade-down"></i>
+                        <i class="fab fa-linkedin-in me-4 pt-3 dim" data-aos="fade-up"></i>
+                        <i class="fab fa-google-plus-g me-4 pt-3 dim" data-aos="fade-down"></i>
+                        <button type="button" class="btn text-white bg-secondary" data-aos="fade-down">Location</button>
+                    </div>
+                </div>
+                <!-- Top Bar Ends Here -->
+
+
+                <!-- Logo and Contacts Starts Here -->
+                <div class="row">
+                    <div class="col-md-12 d-flex" style="padding: 0;">
+                        <div class="col-md-3 mt-4 ms-auto">
+                            <img src="Icons/decorish.png" alt="Decorish Logo Not Found" title="Decorish Logo" width="120px" height="40px" class="decorish-logo" data-aos="fade-up" data-aos-duration="3000">
+                        </div>
+                        <div class="col-md-8 d-flex  flex-wrap gap-5 contact-icons" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <div class=" mt-4 d-flex flex-fill">
+                                <img src="Icons/call.png" alt="Call Icon Not Found" title="Contact Us" width="50px" height="50px" class="elem-top">
+                                <div class="ps-2">
+                                    <h5 class="fw-bold">Call Us</h5>
+                                    <h6>03005922638</h6>
+                                </div>
+                            </div>
+                            <div class=" mt-4 d-flex flex-fill">
+                                <img src="Icons/mail.png" alt="Call Icon Not Found" title="Contact Us" width="50px" height="50px" class="elem-top">
+                                <div class=" ps-2">
+                                    <h5 class="fw-bold">Mail Us</h5>
+                                    <h6 class="c-icon-text">Info@decorish</h6>
+                                </div>
+                            </div>
+                            <div class=" mt-4 w-50 d-flex flex-fill">
+                                <img src="Icons/location.png" alt="Call Icon Not Found" title="Contact Us" width="50px" height="50px" class="elem-top">
+                                <div class="w-50 ps-2">
+                                    <h5 class="fw-bold">Location</h5>
+                                    <h6 class="c-icon-text">Hayat Abad Main road near BRT Station Peshawar KPK Pakistan</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Logo and Contacts Ends Here -->
+
+            </div>
+        </header>
+        <!-- Header Ends Here -->
+
+
+
+        <!-- Navbar Starts Here -->
+        <section id="navbar">
+            <div class="container-fluid">
+                <div class="row my-nav">
+                    <div class="col-md-10 m-auto">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid" data-aos="fade-up">
+                                <button class="navbar-toggler navbar-dark ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item me-3">
+                                            <a class="nav-link text-white" aria-current="page" href="index.html">HOME</a>
+                                        </li>
+                                        <li class="nav-item me-3">
+                                            <a class="nav-link text-white" href="our-projects.html">OUR PROJECTS</a>
+                                        </li>
+                                        <li class="nav-item me-3 dropdown">
+                                            <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          OUR EXPERTIES
+                                        </a>
+                                            <ul class="dropdown-menu my-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <li><a class="dropdown-item my-dropdown  active my-active py-2 px-4 text-black" href="#">Architecture</a></li>
+                                                <li><a class="dropdown-item border-top py-2 px-4 text-black" href="master-planning.html">Master Planning</a></li>
+                                                <li><a class="dropdown-item border-top  py-2 px-4 text-black" href="interior-design.html">Interior Design</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item me-3">
+                                            <a class="nav-link text-white" href="our-people.html">OUR PEOPLE</a>
+                                        </li>
+                                        <li class="nav-item me-3">
+                                            <a class="nav-link text-white" href="firm.html">OUR FIRM</a>
+                                        </li>
+                                        <li class="nav-item me-3">
+                                            <a class="nav-link text-white" href="Contact.html">CONTACT</a>
+                                        </li>
+
+                                    </ul>
+                                    <form class="navbar-form navbar-inverse d-flex" role="search">
+                                        <div class="form-group">
+                                            <input type="text" name="search" class="form-control" placeholder="Search here..">
+                                        </div>
+                                        <button type="submit" class="btn btn-default">
+                                               <span class="glyphicon glyphicon-search text-white">Search</span>
+                                            </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Navbar Ends Here -->
+
+
+
+
+        <!-- project div starts here -->
+        <section id="project-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-white ms-auto d-grid align-content-center my-black-div">
+                        <div class="my-responsive-div" data-aos="fade-down">
+                            <h1 style="font-size: 60px;">Architecture</h1>
+                        </div>
+
+                        <!-- Breadcrumb starts here -->
+                        <div class="my-responsive-div">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html" data-aos="fade-up">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page" data-aos="fade-up">Architecture</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- project div ends here -->
+
+
+
+        <!-- Architecture Vision starts here -->
+        <section id="architecture-vision" class="my-vision">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr class="ms-auto my-bold-hr" data-aos="fade-up">
+                        <div class="py-2" data-aos="fade-up">
+                            <h1 class="vision-head my-plan-head-box-shadow p-3">
+                                We build a vision of our clients in harmony with aesthetics and functionality.
+                            </h1>
+                            <p class="pt-2 " data-aos="fade-up">For us at Decorish, the architectural services that we offer are just tools that help us implement the solutions to the client’s project challenges. The essence of our work is not only what, but how we do it. Our responsibility
+                                lies in designing the client’s vision by meeting all the requirements of the program with creativity and imagination. To ensure the success of the project, we create a unique design process that combined with our experience
+                                allows us to solve seemingly impossible problems with demanding design criteria and present solutions that generate additional economic and sustainable value for our clients and project users.</p>
+                        </div>
+                        <hr class="ms-auto my-bold-hr">
+                        <div class="architecture-services pt-2">
+                            <p data-aos="fade-up">+ SITE ANALYSIS</p>
+                            <p data-aos="fade-up">+ PRE-CONCEPT DESIGN</p>
+                            <p data-aos="fade-up">+ CONCEPT DESIGN</p>
+                            <p data-aos="fade-up">+ SCHEMATIC DESIGN</p>
+                            <p data-aos="fade-up">+ DETAILED DESIGN</p>
+                            <p data-aos="fade-up">+ TENDER DESIGN</p>
+                            <p data-aos="fade-up">+ CONSTRUCTION SUPERVISION</p>
+                        </div>
+                        <hr class="ms-auto my-bold-hr">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Architecture Vision Ends here -->
+
+        <!-- Footer Section Starts Here -->
+
+        <footer class="mt-2 ">
+            <div class="container-fluid ">
+                <div class="row bg-dark text-white ">
+                    <div class="col-md-4 text-center ">
+                        <h5 class="fw-bold py-3 ">2021 Expert.</h5>
+                    </div>
+                    <div class="col-md-7 d-flex justify-content-end footer-responsive ">
+                        <i class="fab fa-twitter me-4 pt-3 "></i>
+                        <i class="fab fa-facebook-f me-4 pt-3 "></i>
+                        <i class="fab fa-instagram me-4 pt-3 "></i>
+                        <i class="fab fa-linkedin-in me-4 pt-3 "></i>
+                        <i class="fab fa-google-plus-g me-4 pt-3 "></i>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- Footer Section Ends Here -->
+
+    </div>
+    <!-- Main Container Ends Here -->
+
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 1200,
+        });
+    </script>
+
+    <!-- Scroll to Top on Click Button -->
+    <script>
+        //Get the button ( Scroll to Top )
+        let archibtn = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                archibtn.style.display = "block";
+            } else {
+                archibtn.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        archibtn.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

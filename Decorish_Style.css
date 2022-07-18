@@ -1,0 +1,575 @@
+* {
+    font-family: PT Sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #aaaaaa !important;
+}
+
+a:hover {
+    color: #fff !important;
+}
+
+.dim {
+    color: #aaaaaa !important;
+}
+
+.dim:hover {
+    color: #fff !important;
+    cursor: pointer !important;
+}
+
+
+/* Header starts here */
+
+
+/* Scoll to Top */
+
+#btn-back-to-top,
+#btn-back-to-top2 {
+    position: fixed;
+    bottom: 20px !important;
+    right: 20px !important;
+    border-radius: 45px;
+    display: none;
+    background: linear-gradient(to right, #4f606a, #4f606a) !important;
+    color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+    .top-responsive,
+    .footer-responsive {
+        justify-content: center !important;
+        margin-bottom: 1rem !important;
+    }
+}
+
+
+/* Decorish Logo */
+
+.decorish-logo {
+    cursor: pointer !important;
+}
+
+
+/* Contact */
+
+.contact-icons {
+    /* margin-left: 8rem !important; */
+    font-family: Maven Pro !important;
+}
+
+.c-icon-text {
+    color: #888;
+    line-height: 20px !important;
+}
+
+
+/* Icons Media Query */
+
+@media screen and (max-width: 767px) {
+    .contact-icons {
+        margin-left: 4rem !important;
+    }
+}
+
+
+/* Navbar */
+
+.my-nav {
+    background: linear-gradient(to right, #4f606a, #4f606a) !important;
+    /* background-color: #6b705c !important; */
+}
+
+
+/* active nav color */
+
+.my-active {
+    background-color: #b1acac !important;
+    color: #fff !important;
+    /* border-radius: 45px; */
+}
+
+.nav-link:hover {
+    background-color: #b1acac !important;
+    color: #fff !important;
+}
+
+.white,
+.white a {
+    color: #fff !important;
+}
+
+
+/* dropdown */
+
+.my-dropdown-menu {
+    margin: 0rem !important;
+    padding: 0em !important;
+    font-size: 18px !important;
+}
+
+.dropdown-item:hover {
+    background: linear-gradient(to right, #4f606a, #4f606a) !important;
+}
+
+
+/* Dropdown on hover */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0px;
+}
+
+
+/* Header Ends Here */
+
+
+/* slider Images styling Starts HEre */
+
+@media screen and (min-width:767px) and (max-width:2000px) {
+    .my-slider-img {
+        height: 550px !important;
+    }
+}
+
+
+/* slider Images styling Ends HEre */
+
+
+/* Tabs Buttons */
+
+.my-tabb {
+    margin-top: 6rem !important;
+}
+
+.my-tab-btn {
+    background: none;
+    border: 10px solid rgba(0, 0, 0, .3);
+    border-width: 2px;
+    /* box-shadow: 0 0 0 2px #56088d, 0 0 0 4px white, 0 0 0 6px #56088d, 0 0 0 9px rgb(255 255 255 / 40%); */
+    /* background-color: #aaaaaa !important; */
+    /* box-shadow: 0 0 0 9px rgb(230 62 62 / 51%), 0 0 0 20px rgb(230 62 62 / 21%) !important; */
+    /* background-color: rgb(54, 19, 180); */
+    box-shadow: 0 0 0 9px rgba(96, 95, 99, 0.74), 0 0 0 20px rgb(59 49 153 / 21%) !important;
+    background-color: #414446 !important;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    font-size: 26px !important;
+    margin: auto !important;
+}
+
+.my-tab-btn:hover,
+.my-tab-btn:focus,
+.my-tab-btn:target {
+    background: none;
+    border: 10px solid rgba(0, 0, 0, .3);
+    border-width: 2px;
+    /* box-shadow: 0 0 0 2px #56088d, 0 0 0 4px white, 0 0 0 6px #56088d, 0 0 0 9px rgb(255 255 255 / 40%); */
+    /* background-color: #aaaaaa !important; */
+    /* box-shadow: 0 0 0 9px rgb(230 62 62 / 51%), 0 0 0 20px rgb(230 62 62 / 21%) !important; */
+    /* background-color: rgb(54, 19, 180); */
+    box-shadow: 0 0 0 9px rgba(196, 196, 196, 0.74), 0 0 0 20px rgba(87, 82, 82, 0.678) !important;
+    /* background-color: rgba(99, 87, 87, 0.678) !important; */
+    background-color: #7d8081 !important;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    font-size: 26px !important;
+    margin: auto !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+
+/* Beneath Navbar Div */
+
+.my-black-div {
+    background-color: rgba(41, 41, 41, .9) !important;
+    height: 250px;
+}
+
+@media screen and (max-width:767px) {
+    .my-black-div {
+        height: 250px;
+    }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #4f606a;
+}
+
+
+/* tabs responsiveness 767 */
+
+@media screen and (max-width: 767px) {
+    .my-ress-tabs {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+.my-responsive-tabs {
+    width: 200px !important;
+    margin-bottom: 4rem !important;
+}
+
+@media screen and (max-width: 471px) {
+    .my-responsive-tabs {
+        width: 120px !important;
+        margin-bottom: 2rem !important;
+    }
+}
+
+
+/* success story section starts here */
+
+.success-story-div {
+    background: radial-gradient( #4f606a, #4f606a) !important;
+}
+
+.success-head {
+    margin-top: 7rem !important;
+}
+
+.my-success-circle {
+    width: 90px !important;
+    height: 90px !important;
+    background-color: #fff !important;
+    margin: auto !important;
+    border-radius: 50%;
+    box-shadow: 0 0 0 9px rgba(207, 207, 207, 0.459), 0 0 0 20px rgba(194, 194, 207, 0.185) !important;
+}
+
+.my-success-icon {
+    font-size: 48px !important;
+}
+
+
+/* Transition on icons */
+
+.elem:hover {
+    /* background: blueviolet; */
+    width: 65px;
+    /* height: 150px; */
+    /* margin: 20px auto; */
+    transition: 500ms linear;
+}
+
+.elem-top:hover {
+    width: 60px;
+    transition: 500ms ease-in-out;
+}
+
+
+/******************************************* Project File CSS **********************************************/
+
+
+/* Tabs Starts Here */
+
+.my-tab-top-btn {
+    color: black !important;
+    border: 1px solid #4f606a !important;
+    padding-left: 1.5em !important;
+    padding-right: 1.5em !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    letter-spacing: 1px !important;
+}
+
+.my-tab-top-btn:valid {
+    color: #fff !important;
+    background-color: #4f606a !important;
+}
+
+.my-tab-top-btn:active,
+.my-tab-top-btn:focus,
+.my-tab-top-btn:hover,
+.my-tab-top-btn:target {
+    color: #fff !important;
+    background-color: #4f606a !important;
+}
+
+
+/* .active {
+    background-color: #4f606a !important;
+} */
+
+
+/* .my-tab-top-btn:hover {
+    background-color: #4f606a !important;
+    color: #fff !important;
+} */
+
+
+/* zzoom */
+
+
+/* .img-hover-zoom {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.img-hover-zoom img {
+    transition: transform 2s ease-in;
+    display: block;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(2.2);
+} */
+
+.example {
+    position: relative;
+    padding: 0;
+    width: 300px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.example img {
+    /* display: block; */
+    transition: transform 2s ease-in !important;
+}
+
+.example:hover img {
+    transform: scale(2.2);
+}
+
+.content {
+    opacity: 0;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(7, 7, 7, 0.5);
+    width: 350px;
+    height: 200px;
+    padding-top: 2em;
+    /* margin: 0 auto; */
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+}
+
+.example .content:hover {
+    opacity: 1;
+}
+
+.content .text {
+    /* height: 0; */
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    font-size: 18px !important;
+}
+
+.content .text:hover {
+    color: #fff !important;
+    background-color: rgb(109, 108, 108) !important;
+}
+
+.example .content:hover .text {
+    opacity: 1;
+    /* display: flex; */
+    text-align: center;
+    /* transform: translateY(250px); */
+    /* -webkit-transform: translateY(250px); */
+}
+
+
+/********************************************* Architecture.html styles starts here **************************************** */
+
+.my-vision {
+    margin-top: 4rem !important;
+}
+
+.vision-head {
+    font-size: 30px !important;
+    color: #4f606a !important;
+}
+
+@media screen and (max-width: 767px) {
+    .vision-head {
+        font-size: 20px !important;
+    }
+}
+
+.architecture-services {
+    line-height: 1.5em !important;
+}
+
+.my-bold-hr {
+    background-color: rgb(0, 0, 0) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+.my-responsive-div {
+    margin-left: 6rem;
+}
+
+@media screen and (max-width: 420px) {
+    .my-responsive-div {
+        margin-left: 0rem !important;
+    }
+}
+
+
+/********************************************* Master Planning.html styles starts here **************************************** */
+
+.my-master-planning-div {
+    margin-top: 4rem !important;
+}
+
+.my-plan-head-box-shadow {
+    /* width: 300px; */
+    /* height: 100px; */
+    background-color: rgba(255, 255, 255, 0.46);
+    /* position: relative; */
+    box-shadow: 0px 0px 8px 1px #878787;
+}
+
+.my-ms-plan-p {
+    font-size: 18px !important;
+}
+
+
+/********************************************* Contact.html styles starts here **************************************** */
+
+.my-contact-col {
+    background-color: #f5f5f5 !important;
+}
+
+.my-inner-contact-col {
+    margin-top: 5rem !important;
+    margin-bottom: 7rem !important;
+}
+
+.contact-innner-circle {
+    width: 70px !important;
+    height: 70px !important;
+    background-color: #4f606a !important;
+    border-radius: 45px !important;
+    box-shadow: 0px 0px 5px 3px #B8B1BF;
+}
+
+.contact-timing {
+    padding-top: 1em !important;
+    line-height: 0.5em !important;
+}
+
+
+/********************************* OUR TEAM PAGE STYLING  **************************************/
+
+.line-before {
+    width: 50px;
+    height: 2px;
+    top: 1px !important;
+}
+
+.border-after {
+    width: 8px;
+    height: 8px;
+    transform: translateY(-50%) rotate( 45deg);
+}
+
+.leader-side {
+    background-color: #f5f5f5 !important;
+}
+
+@media (min-width: 478px) and (max-width: 767px) {
+    .my-responsive-leader {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+    .my-responsive-side-img {
+        width: 3300px !important;
+        height: 270px !important;
+        display: flexbox !important;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .leader-side {
+        display: inline !important;
+    }
+    .my-responsive-leader {
+        display: inline !important;
+    }
+    .img-text-desc {
+        margin-bottom: 5rem !important;
+    }
+}
+
+.img-text {
+    padding-right: 4em !important;
+}
+
+.img-text-p {
+    color: #4f606a !important;
+}
+
+.icon {
+    width: 33px;
+    height: 32px;
+    background-color: #888888;
+    border-color: #888888;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #4f606a !important;
+}
+
+.leader-fb {
+    padding-left: 0.8em !important;
+    padding-right: 0.68em !important;
+}
+
+.leader-g {
+    padding-left: 0.5em !important;
+    padding-right: 0.35em !important;
+}
+
+.leader-in {
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
+}
+
+.img-text-desc {
+    color: #454545 !important;
+}
+
+.member {
+    width: 330px;
+}
+
+.member img {
+    width: 330px;
+    height: 300px;
+}
+
+.member-h1 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.member-p {
+    margin-left: 1rem;
+    color: #4f606a !important;
+}
